@@ -20,9 +20,9 @@
   
   
   function updateUserProfile(user) {
-    const userName = user.displayName || "Anonymous";
-    const userEmail = user.email || "No Email";
-    const userProfilePic = user.photoURL || "default-profile-pic.jpg";
+    const userName = user.displayName 
+    const userEmail = user.email 
+    const userProfilePic = user.photoURL 
   
     document.getElementById("userName").textContent = userName;
     document.getElementById("userEmail").textContent = userEmail;
